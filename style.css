@@ -1,0 +1,67 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Helvetica;
+    margin: 0px;
+}
+/*********** les propriétés communes **********/
+h2{
+    width: 100%;
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+}
+p span{
+    color: blue;
+    font-weight: bold;
+}
+/*** image au survole ***/
+.image-survole:hover{
+transform: scale(1.05);
+}
+.image-survole{
+    transition: transform 1.5s;
+}
+header, main{
+    margin: 0px 10px;
+}
+/********* fin *********/
+header{
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg);
+    text-align: center;
+}
+header h1{
+    font-size: 100px;
+    color: khaki;
+    font-weight: bold;
+}
+.brushes h2{
+    background-color: mediumspringgreen;
+}
+.frames h2{
+    background-color: lightcoral;
+}
+.paint h2{
+    background-color: skyblue;
+}
+footer{
+    padding: 50px;
+    background-color: #c7b9f66a;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    font-size: 22px;
+    padding: 10px 30px;
+    color: #202020;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0 10px 0 #939393;
+    transition: all 0.3s ease;
+}
+footer a:hover{
+    background-color:crimson;
+    color: #fff;
+    font-size: 24px;
+}
